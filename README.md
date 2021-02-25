@@ -5,7 +5,7 @@ Model is train using the TensorFlow and TensorFlow API called Keras. This applic
 the output with the accuracy level i.e. how much confident the model is on that particular prediction.
 
 ## What you get at the end?
-<<<<<<< HEAD
+
 If you successfully complete all the steps than you get an application which looks something like this.
 
 ![screenshot.png](\image\screenshot.JPG)
@@ -55,6 +55,4 @@ Congratulations!!! 🎉 You have successfully run your Machine Learning Applicat
 
 ## Developer
 You can connect with me on my [LinkedIn](https://www.linkedin.com/in/abhishek-vaish) or on my [Twitter](https://www.twitter.com/abhishek_vaish_). ❤
-=======
-![screenshot.png]('./image/screenshot.jpg')
->>>>>>> 4c34db7fe196807d322774e65adc7d663f205b96
+
