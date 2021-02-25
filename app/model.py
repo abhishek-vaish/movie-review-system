@@ -14,7 +14,8 @@ def predict(review):
     padding = data_manipulation(data_list)
     preds = model.predict(padding)
     result = true_target[np.argmax(preds)]
-    return result
+    accuracy = max(preds) * 100
+    return result, accuracy[0]
 
 def data_manipulation(review_list, tokenizer=tokenizer):
     sequence = tokenizer.texts_to_sequences(review_list)
