@@ -8,7 +8,7 @@ the output with the accuracy level i.e. how much confident the model is on that 
 
 If you successfully complete all the steps than you get an application which looks something like this.
 
-![screenshot.png](\image\screenshot.JPG)
+![screenshot.png](/image/screenshot.JPG)
 ![screenshot-1.jpg](/image/screenshot-1.JPG)
 
 ## Let's get started 🤝
