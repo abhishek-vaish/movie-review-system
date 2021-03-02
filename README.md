@@ -53,6 +53,50 @@ This will open up the new tab of your default browser and launch the application
 
 Congratulations!!! 🎉 You have successfully run your Machine Learning Application in the easy 5 Steps. Now you can deploy it in any free cloud service provider like, Heroku, Netlify, etc.
 
+## Wanna Deploy! ☁
+So far we have launch the application on the local system. Now, making the one step forward, we deploy the application on the `Heroku` Platform using the containerize serive called Docker. **But before that you must have a docker and heroku cli installed on your system.**
+
+> You can download the Heroku CLI from [here](https://devcenter.heroku.com/articles/heroku-cli).
+
+So, we are making the `Movie Review System` live. Are you ready?
+
+### Step1: Login to Heroku.
+```
+$ heroku login
+```
+Enter your heroku credentials to login into the Heroku.
+
+### Step2: Login to Heroku Container.
+```
+$ heroku container login
+```
+
+### Step3: Create Heroku App.
+```
+$ heroku create -a <APP-NAME>
+```
+This will create an application to your heroku account.
+
+### Step4: Build the `docker-compose.yml` file.
+```
+$ heroku container:push web -a <APP-NAME>
+```
+This will build your dockerfile and install all the required requirement.
+
+### Step5: Release your application
+```
+$ heroku container:release web -a <APP-NAME>
+```
+
+### Step6: Open your application
+```
+$ heroku open
+```
+
+Congratulations!!! 🎉 You have successfully deploy your application on Heroku in just 6 easy steps. Share your application on social network and do tag me on [LinkedIn](https://www.linkedin.com/in/abhishek-vaish)
+
+
+
 ## Developer
 You can connect with me on my [LinkedIn](https://www.linkedin.com/in/abhishek-vaish) or on my [Twitter](https://www.twitter.com/abhishek_vaish_). ❤
 
